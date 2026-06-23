@@ -19,8 +19,7 @@ public class GlobalExceptionHandler {
 
         return ResponseEntity
                 .status(HttpStatus.NOT_FOUND)
-                .body(new ApiError(
-                        "Recurso no encontrado"));
+                .body(new ApiError("Recurso no encontrado"));
     }
     
     @ExceptionHandler(feign.FeignException.class)
@@ -29,8 +28,7 @@ public class GlobalExceptionHandler {
 
         return ResponseEntity
                 .status(HttpStatus.BAD_REQUEST)
-                .body(new ApiError(
-                        "Error al consultar otro microservicio"));
+                .body(new ApiError("Error al consultar otro microservicio"));
     }
     
     @ExceptionHandler(Exception.class)

@@ -8,10 +8,10 @@
 		<version>3.5.15</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.votacion.resultados</groupId>
-	<artifactId>Resultados-service</artifactId>
+	<groupId>com.votacion.auditoria</groupId>
+	<artifactId>Auditoria-service</artifactId>
 	<version>1.0</version>
-	<name>Resultados-service</name>
+	<name>Auditoria-service</name>
 	<description/>
 	<url/>
 	<licenses>
