@@ -14,3 +14,5 @@ bin/
 # Logs y temporales
 *.log
 .sts4-cache/
+config.bat
+node_modules
