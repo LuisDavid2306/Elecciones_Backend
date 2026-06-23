@@ -1,0 +1,16 @@
+# Eclipse metadata (Lo que quieres evitar)
+.metadata/
+.classpath
+.project
+.settings/
+*.launch
+
+# Archivos de Spring Boot / Compilación
+target/
+bin/
+*.jar
+*.war
+
+# Logs y temporales
+*.log
+.sts4-cache/
